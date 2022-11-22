@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Kontakt</title>
+		  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    </head>
+    <body>
+      <div class="container py-3">
+
+        <div class="d-flex">
+          <img src="./Bilder Kontakt/Kontakthintergrund.jpg" width="100%"/>
+        </div>
+
+        <form action="mailto:weberd.wwi22@student.dhbw-heidenheim.de?subject=Kontaktanfrage" method="post" enctype="text/plain">
+              <legend>Kontaktieren Sie uns jetzt!</legend>
+              <div class="form-group row">
+                <label for="titel">Titel: </label>
+                <select size="1" name="Titel" id="titel">
+                    <option value="" selected="selected"></option>
+                    <option value="Herr" >Herr</option>
+                    <option value="Frau" >Frau</option>
+                    <option value="keine Angabe">keine Angabe</option>
+                </select>
+              </div>
+
+              <div class="form-group row">
+                <label for="vName"> Vorname:</label>
+                <input type="text" name="Vorname" id="vName" placeholder="Max" required>
+              </div>
+
+              <div class="form-group row">
+                <label for="nName"> Nachname:</label>
+                <input type="text" name="Nachname" id="nName" placeholder="Mustermann" required>
+              </div>
+
+              <div class="form-group row">
+                <label for="street"> Stra&szlig;e und Hausnummer: </label>
+                <input type="text" name="Straße" id="street" placeholder="Kirchenweg 1">
+              </div>
+
+              <div class="form-group row">
+                <label for="plz"> Postleitzahl: </label>
+                <input type="text" name="PLZ" id="plz" placeholder="89518" required>
+              </div>
+
+              <div class="form-group row">
+                <label for="city"> Stadt: </label>
+                <input type="text" name="Stadt" id="city" placeholder="Heidenheim" required>
+              </div>
+
+              <div class="form-group row">
+                <label for="numb"> Telefonnummer:</label>
+                <input type="Tel" name="Telefonnummer:" id="numb" placeholder="+49 7321 0100">
+              </div>
+
+              <div class="form-group row">
+                <label for="mail"> E-Mail:</label>
+                <input type="email" name="Email" id="mail" placeholder="max@mustermann.de" required>
+              </div>
+
+              <div class="form-group row">
+                <label for="commentar">Sonstige Bemerkungen:</label>
+                <textarea name="kommentar" id="commentar" rows="8" cols="26" maxlength="700"></textarea>
+              </div>
+              <br/>
+              <button type="submit" value="Absenden" class="btn btn-primary mb-2">Senden</button>
+              <button type="reset" value="Formular zur&uuml;cksetzen" class="btn btn-secondary mb-2">Zurücksetzen</button>
+        </form>
+      </div>
+    </body>
+</html>

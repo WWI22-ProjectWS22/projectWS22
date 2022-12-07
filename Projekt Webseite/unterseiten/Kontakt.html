@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <title>Kontakt</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="row justify-content-evenly pt-4">
+                <div class="col-8 col-sm-12">
+                    <a class="d-flex justify-content-around text-decoration-none text-muted" href="index.html">
+                        <img class="img-thumbnail" src="../Bilder/RCDlogoWT.webp" alt="Logo" width="100px" height="auto">
+                        <div class="container-fluid align-self-center">
+                            <h1 class="">Royal Chocolate Design</h1>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-4 col-sm-12">
+                    <nav class="navbar navbar-expand-sm">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="../index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../unterseiten/Produkte.html">Produkte</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../unterseiten/Herstellung.html">Herstellung</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../unterseiten/Geschenkideen.html">Geschenkideen</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../unterseiten/Uberuns.html">Über Uns</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../unterseiten/Kontakt.html">Kontakt</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div class="py-3">
+                <div class="bg-image d-flex justify-content-center align-items-center"
+          style="
+          background-image: url('../Bilder/Bilder_Kontakt/Maps.webp');
+          height: 30vh;
+          width: 100%;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          "
+          >
+			  </div>
+			    <br/>
+                <div class="row justify-content-center">
+          <div class="col-md-4">
+            <form action="mailto:weberd.wwi22@student.dhbw-heidenheim.de?subject=Kontaktanfrage" method="post" enctype="text/plain">
+                  <legend>Kontaktieren Sie uns jetzt!</legend>
+                  <div class="form-group row">
+                    <label for="titel">Titel: </label>
+                    <select size="1" name="Titel" id="titel">
+                        <option value="" selected="selected"></option>
+                        <option value="Herr" >Herr</option>
+                        <option value="Frau" >Frau</option>
+                        <option value="keine Angabe">keine Angabe</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group row">
+                    <label for="vName"> Vorname:</label>
+                    <input type="text" name="Vorname" id="vName" placeholder="Max" required>
+                  </div>
+
+                  <div class="form-group row">
+                    <label for="nName"> Nachname:</label>
+                    <input type="text" name="Nachname" id="nName" placeholder="Mustermann" required>
+                  </div>
+
+                  <div class="form-group row">
+                    <label for="street"> Stra&szlig;e und Hausnummer: </label>
+                    <input type="text" name="Straße" id="street" placeholder="Kirchenweg 1">
+                  </div>
+
+                  <div class="form-group row">
+                    <label for="plz"> Postleitzahl: </label>
+                    <input type="text" name="PLZ" id="plz" placeholder="89518" required>
+                  </div>
+
+                  <div class="form-group row">
+                    <label for="city"> Stadt: </label>
+                    <input type="text" name="Stadt" id="city" placeholder="Heidenheim" required>
+                  </div>
+
+                  <div class="form-group row">
+                    <label for="numb"> Telefonnummer:</label>
+                    <input type="Tel" name="Telefonnummer:" id="numb" placeholder="+49 7321 0100">
+                  </div>
+
+                  <div class="form-group row">
+                    <label for="mail"> E-Mail:</label>
+                    <input type="email" name="Email" id="mail" placeholder="max@mustermann.de" required>
+                  </div>
+
+                  <div class="form-group row">
+                    <label for="commentar">Sonstige Bemerkungen:</label>
+                    <textarea name="kommentar" id="commentar" rows="8" cols="26" maxlength="700"></textarea>
+                  </div>
+                  <br/>
+                  <button type="submit" value="Absenden" class="btn btn-primary mb-2">Senden</button>
+                  <button type="reset" value="Formular zur&uuml;cksetzen" class="btn btn-secondary mb-2">Zurücksetzen</button>
+            </form>
+          </div>
+        </div>
+            </div>
+            <footer class="d-flex flex-wrap justify-content-between align-items-center pt-0 my-2 border-top">
+                <div class="d-flex align-items-center">
+                    <img class="img-thumbnail"src="../Bilder/RCDlogoWT.webp" width="40px" height="auto">
+                    &#169;2022 Royal Chocolate Design
+                </div>
+            </footer>
+        </div>
+        <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

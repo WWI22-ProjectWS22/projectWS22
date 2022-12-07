@@ -1,0 +1,11 @@
+#backgroundIMG{
+	background-image: url("./Bilder/pralinenHintergrund.jpg");
+	background-color: gray;
+	border-style: solid;
+}
+.container{
+	background-color: #Fff7f3;
+}
+#backgroundDIV{
+	background-color: #Fff7f3;
+}

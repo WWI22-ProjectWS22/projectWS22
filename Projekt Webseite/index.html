@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" xmlns="http://www.w3.org/1999/html">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,7 +53,7 @@
 		</header>
 		<div class="py-3">
 
-			<div class="bg-img text-center p-2" style="
+			<!--<div class="bg-img text-center p-2" style="
 					background-image: url('./Bilder/pralinenHintergrund.webp');
                     height: 40vh;
                     width: 100%;
@@ -78,57 +78,201 @@
 						<a class="text-white text-decoration-none" href="#nachhaltig">Nachhaltig</a>
 					</div>
 				</div>
-			</div>
+			</div>-->
+			<img class="img-fluid" src="./Bilder/Bilder_Hintergrund/home.webp">
 
 			<div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom"></div>
 
-			<div class="row row-cols-1 row-cols-md-2">
+				<div class="row row-cols-1 row-cols-md-2">
 				<div class="col-md-4 mb-3">
-					<img src="./Bilder/Bilder_Herstellung/Verzieren.webp" width="100%" height="50%" alt="Bild von Verzierten Pralinen">
-					<img src="./Bilder/Bilder_Herstellung/Überziehen.webp" width="100%" height="50%" alt="Bild von Befüllten Überzogenen Pralinen">
+					<div id="beispielHerstellung" class="carousel slide" data-bs-ride="carousel" data-bs-intervall="1200">
+						<div class="carousel-inner text-center">
+							<img src="./Bilder/Bilder_LandingPage/Verzieren-1.webp" class="img-fluid carousel-item active" alt="Bild von Verzierten Pralinen" data-bs-intervall>
+							<img src="./Bilder/Bilder_LandingPage/Überziehen-1.webp" class="img-fluid carousel-item" alt="Bild von Befüllten Überzogenen Pralinen">
+							<img src="./Bilder/Bilder_LandingPage/Hohlkörper-gießen-1.webp" class="img-fluid carousel-item"   alt="Bild von Hohlkörper zum Gießen">
+							<img src="Bilder/Bilder_LandingPage/Ausklopfen.webp" class="img-fluid carousel-item" alt="Bild von Ausklopfen">
+						</div>
+					</div>
 				</div>
 				<div class="col-md-8 align-self-center">
-					<h4 class="text-center">Handgefertigt</h4>
-					<p class="text-center">Jede einzelne Praline wird von unsern Konditoren Handgefertigt!</p>
-				</div>
-			</div>
-
-			<div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom"></div>
-			<div id="beispielProdukte" class="carousel slide" data-bs-ride="carousel">
-				<div class="carousel-inner text-center">
-					<div class="carousel-item active card w-25  mb-4 rounded-3 shadow ">
-							<div class="card-header py-3">
-								<h4 class="my-0 fw-normal">Die Süße</h4>
-							</div>
-
-							<div class="card-body">
-								<img src="./Bilder/Bilder_Produkte/Süße.webp" class="img-fluid"  alt="Bild von Süßer">
-								<h1 class="card-title pricing-card-title">
-									xxx€
-									<small class="text-muted fw-light">/100g</small>
-								</h1>
-
-							</div>
-						</div>
-					<div class="carousel-item card w-30 mb-4 rounded-3 shadow">
-							<div class="card-header py-3">
-								<h4 class="my-0 fw-normal">Unser Klassiker</h4>
-							</div>
-
-							<div class="card-body">
-								<img src="./Bilder/Bilder_Produkte/Klassiker.webp" class="img-fluid"  alt="Bild von Klassiker">
-								<h1 class="card-title pricing-card-title">
-									xxx€
-									<small class="text-muted fw-light">/100g</small>
-								</h1>
-							</div>
-						</div>
-
+					<h3>Handgefertigt</h3>
+					<p>Unsere Konditoren haben bisher jede Praline in Ihren Händen gehalten. Nicht zuletzt um wirklich jede Praline zu einem einzigartigen Erlebnis zu machen!</p>
 				</div>
 			</div>
 
 			<div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom"></div>
 
+				<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+				<div class="col px-4">
+					<a href="./unterseiten/Produkte.html#Klassiker" class="text-decoration-none text-reset">
+						<div class="card mb-4 rounded-3 shadow">
+						<div class="card-header py-3">
+							<h4 class="my-0 fw-normal">Unser Klassiker</h4>
+						</div>
+
+						<div class="card-body">
+							<img src="./Bilder/Bilder_Produkte/Klassiker.webp" class="img-fluid"  alt="Bild von Klassiker">
+							<h1 class="card-title pricing-card-title">
+								xxx€
+								<small class="text-muted fw-light">/100g</small>
+							</h1>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col px-4">
+					<a href="./unterseiten/Produkte.html#Alles" class="text-decoration-none text-reset">
+						<div class="card mb-4 rounded-3 shadow ">
+						<div class="card-header py-3">
+							<h4 class="my-0 fw-normal">Unser Alleskönner</h4>
+						</div>
+
+						<div class="card-body">
+							<img src="./Bilder/Bilder_Produkte/Alleskönner.webp" class="img-fluid"  alt="Bild von Unserm Alleskönner">
+							<h1 class="card-title pricing-card-title">
+								xxx€
+								<small class="text-muted fw-light">/100g</small>
+							</h1>
+
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col px-4">
+					<a href="./unterseiten/Produkte.html#Suese" class="text-decoration-none text-reset">
+						<div class="card mb-4 rounded-3 shadow">
+						<div class="card-header py-3">
+							<h4 class="my-0 fw-normal">Die Süße</h4>
+						</div>
+
+						<div class="card-body">
+							<img src="./Bilder/Bilder_Produkte/Süße.webp" class="img-fluid"  alt="Bild von Süßer">
+							<h1 class="card-title pricing-card-title">
+								xxx€
+								<small class="text-muted fw-light">/100g</small>
+							</h1>
+
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom"></div>
+
+				<div class="row row-cols-1 row-cols-md-2">
+				<div class="col-md-8 order-2 order-md-1 align-self-center">
+					<h3>Individuell</h3>
+					<p>Egal ob Weihnachten, Valentinstag oder einfach individuell! <br> Treten Sie mit uns in Kontakt und wir suchen gemeinsam Ihre Persönliche Verpackung aus!</p>
+				</div>
+				<div class="col-md-4 order-1 order-md-2 mb-3">
+					<div id="beispielPackungen" class="carousel slide" data-bs-ride="carousel" data-bs-intervall="1200">
+						<div class="carousel-inner text-center">
+							<img src="./Bilder/Bilder_LandingPage/Adventskalender.webp" alt="Bild von Adventskalender" class="img-fluid carousel-item">
+							<img src="./Bilder/Bilder_LandingPage/Valentinstag.webp" alt="Bild von Valentinsboxen" class="img-fluid carousel-item active">
+							<img src="./Bilder/Bilder_LandingPage/Geburtstag.webp" class="img-fluid carousel-item" alt="Bild von Geburtstagsverpackung">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom"></div>
+
+				<div class="row row-cols-1 row-cols-md-2">
+				<div class="col-md-4 mb-3">
+					<img src="./Bilder/Bilder_LandingPage/nachhaltig.webp" class="img-fluid" alt="Bild von NaturKakao">
+				</div>
+				<div class="col-md-8 align-self-center">
+					<h3>Nachhaltig</h3>
+					<p>Genau darauf legen wir wert, bei unserer Auswahl von hochwertigen Rohstoffen, ist uns deren Fußabdruck besonders wichtig!</p>
+				</div>
+			</div>
+
+			<div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom"></div>
+
+				<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+				<div class="col px-4">
+					<a href="./unterseiten/Produkte.html#Herz" class="text-decoration-none text-reset">
+						<div class="card mb-4 rounded-3 shadow">
+						<div class="card-header py-3">
+							<h4 class="my-0 fw-normal">Die Herzhafte</h4>
+						</div>
+
+						<div class="card-body">
+							<img src="./Bilder/Bilder_Produkte/die-herzhafte.webp" class="img-fluid"  alt="Bild von Herzhafter">
+							<h1 class="card-title pricing-card-title">
+								xxx€
+								<small class="text-muted fw-light">/100g</small>
+							</h1>
+
+						</div>
+						</div></a>
+				</div>
+				<div class="col px-4">
+					<a href="./unterseiten/Produkte.html#Kinder" class="text-decoration-none text-reset">
+						<div class="card mb-4 rounded-3 shadow">
+						<div class="card-header py-3">
+							<h4 class="my-0 fw-normal">Kinderpraline</h4>
+						</div>
+
+						<div class="card-body">
+							<img src="./Bilder/Bilder_Produkte/Kinderpraline.webp" class="img-fluid"  alt="Bild von Kinderpraline">
+							<h1 class="card-title pricing-card-title">
+								xxx€
+								<small class="text-muted fw-light">/100g</small>
+							</h1>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col px-4">
+					<a href="./unterseiten/Produkte.html#Royal" class="text-decoration-none text-reset">
+						<div class="card mb-4 rounded-3 shadow">
+						<div class="card-header py-3">
+							<h4 class="my-0 fw-normal">Die Royale</h4>
+						</div>
+
+						<div class="card-body">
+							<img src="./Bilder/Bilder_Produkte/Royale%20Praline.webp" class="img-fluid"  alt="Bild von Royaler Praline">
+							<h1 class="card-title pricing-card-title">
+								xxx€
+								<small class="text-muted fw-light">/100g</small>
+							</h1>
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom text-center"></div>
+			<h3>Unser Team</h3>
+			<div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 mb-3 text-center justify-content-evenly">
+				<div class="col px-4">
+					<a href="./unterseiten/Uberuns.html#Kai" class="text-decoration-none text-reset">
+						<img class="img-fluid rounded-circle" src="./Bilder/Bilder_Uberuns/Kai-Faßbinder-square.webp"></img>
+					</a>
+				</div>
+				<div class="col px-4">
+					<a href="./unterseiten/Uberuns.html#Danilo" class="text-decoration-none text-reset">
+						<img class="img-fluid rounded-circle" src="./Bilder/Bilder_Uberuns/Danilo_square.webp"></img>
+					</a>
+				</div>
+				<div class="col px-4">
+					<a href="./unterseiten/Uberuns.html#Michi" class="text-decoration-none text-reset">
+						<img class="img-fluid rounded-circle" src="./Bilder/Bilder_Uberuns/Michi.webp"></img>
+					</a>
+				</div>
+				<div class="col px-4">
+					<a href="./unterseiten/Uberuns.html#Luca" class="text-decoration-none text-reset">
+						<img class="img-fluid rounded-circle" src="./Bilder/Bilder_Uberuns/Luca.webp"></img>
+					</a>
+				</div>
+				<div class="col px-4">
+					<a href="./unterseiten/Uberuns.html#Felix" class="text-decoration-none text-reset">
+						<img class="img-fluid rounded-circle" src="./Bilder/Bilder_Uberuns/Felix.webp"></img>
+					</a>
+				</div>
+			</div>
 		</div>
 		<footer class="d-flex flex-wrap justify-content-between border-top py-2">
 			<a href="./index.html"><img class="img-thumbnail" src="./Bilder/RCDlogoWT.webp" width="40px" height="auto"></a>
